@@ -47,8 +47,6 @@ body
 }
 .al-icons{
     padding: 30px;
-    
-
 }
 .al-icons a {
     color:white;
@@ -59,11 +57,8 @@ body
 {
     background-image: linear-gradient(to right, #f2f2f2,#f2f2f2);
     color: #00008B;
-    height: 100vh;
-
+    height: 100%;
     padding-top: 5%; 
-    background-position: center;
-  background-size: cover;
   
 }
 .promo-title
@@ -134,12 +129,12 @@ body {
 
 /* Responsive columns */
 @media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
   }
-}
 
 /* Style the counter cards */
 .card {
