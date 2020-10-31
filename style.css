@@ -36,15 +36,8 @@ body
     float: right;
     text-align: left;
 }
-.fa-bars
-{
-    color: #fff;
-    font-size: 30px !important;
-}
-.navbar-toggler
-{
-    outline: none !important;
-}
+
+
 .al-icons{
     padding: 30px;
 }
@@ -67,36 +60,15 @@ body
     font-weight: 600;
     margin-top: 100px;
 }
-.bottom-img
-{
-    width: 100%;
-}
+
 
 #Solutions
 {
-    padding: 80px 0;
     background-color: #f7fafc;
     padding: 60px;
 
 }
-.container1{
-    display: flex;
-    flex-wrap: wrap-reverse;
-    justify-content: space-between;
 
-}
-.container1 .box1{
-    position: relative;
-    width: 350px;
-    padding: 40px;
-    background: #fff;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
-    border-radius: 4px;
-    margin: 10px;
-    box-sizing: border-box;
-    overflow: hidden;
-    text-align: center;
-}
 
 
 
@@ -115,34 +87,6 @@ body {
   margin-right:50px;
   margin-top: 20px;
   margin-bottom: 20px;
-}
-
-/* Remove extra left and right margins, due to padding */
-.row {margin: 0 10px;}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Responsive columns */
-@media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-      display: block;
-      margin-bottom: 20px;
-    }
-  }
-
-/* Style the counter cards */
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 40px;
-  text-align: center;
-  width: 350px;
-  background-color: #f1f1f1;
 }
 
 
@@ -208,7 +152,7 @@ body {
 {
     background: #edf2f7;
     padding: 100px;
-    margin-block: 0px;
+    margin: 0px;
 }
 #social-media p
 {
@@ -244,7 +188,16 @@ body {
 
 
 
+/*Card */
 
+.card{
+    
+  
+  text-align: center;
+  margin-right:30px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
 
 
 
