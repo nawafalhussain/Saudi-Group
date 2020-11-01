@@ -36,6 +36,10 @@ body
     float: right;
     text-align: left;
 }
+.navbar-toggler
+{
+    outline: none !important;
+}
 
 
 .al-icons{
