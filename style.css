@@ -152,13 +152,28 @@ body
     margin-top: 1%;
     margin-bottom: 1%;
   }
-  
+
+  /*------------------Now------------*/
+#Now{
+    background-color: #edf2f7;
+    padding: 10px;
+
+}
+  .counter-section{
+    margin:10% auto;
+    color: #1ab4b7 !important;
+}  
+.conter-box p{
+    font-size:25px;
+}
+.conter-box .content{
+    font-size:60px;
+}
 /*--------------testimonials SECTION--------------*/
 #testimonials
 {
-    background-color: #edf2f7;
-    padding: 100px;
-
+    background-color: #f7fafc;
+    padding: 150px;
 }
 
 .soon{
@@ -172,7 +187,7 @@ body
 
 #social-media
 {
-    background: #f8f9fa;
+    background: #edf2f7;
     padding: 100px 0;
 }
 #social-media p
