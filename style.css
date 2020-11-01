@@ -175,6 +175,11 @@ body
     background-color: #f7fafc;
     padding: 150px;
 }
+#Challenges
+{
+    background-color: #edf2f7;
+    padding: 150px;
+}
 
 .soon{
     position: absolute;
@@ -187,7 +192,7 @@ body
 
 #social-media
 {
-    background: #edf2f7;
+    background: #f7fafc;
     padding: 100px 0;
 }
 #social-media p
