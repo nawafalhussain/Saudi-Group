@@ -12,18 +12,23 @@ body
     position: sticky;
     top: 0;
     z-index: 10;
+    
 }
+
 .navbar
 {
     background-image: linear-gradient(to right, #f2f2f2,#f2f2f2);
     padding: 0 !important;
 }
-
 .navbar-brand img
 {
     height: 40px;
-    padding-left: 20px;
+    padding-left: 50px;
     text-align: right;
+
+}
+#navbarNav{
+    padding-right: 40px;
 }
 .navbar-nav li
 {
@@ -32,30 +37,27 @@ body
 .navbar-nav li a
 {
     color: #fff !important;
-    font-weight: 600;
+    font-weight: 650;
     float: right;
     text-align: left;
+}
+.fa-bars
+{
+    color: #fff;
+    font-size: 30px !important;
 }
 .navbar-toggler
 {
     outline: none !important;
 }
 
-
-.al-icons{
-    padding: 30px;
-}
-.al-icons a {
-    color:white;
-    margin:0 15px 0 0;}
-
+/*-------------banner section---------------*/
 
 #banner
 {
     background-image: linear-gradient(to right, #f2f2f2,#f2f2f2);
     color: #00008B;
     padding-top: 5%; 
-  
 }
 .promo-title
 {
@@ -63,52 +65,35 @@ body
     font-weight: 600;
     margin-top: 100px;
 }
-
-
-#Solutions
+.play-btn
 {
-    background-color: #f7fafc;
-    padding: 60px;
-
+    width: 45px;
+    margin: 20px;
 }
-
-
-
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
+#banner a
+{
+    color: #fff;
+    text-decoration: none;
 }
-
-/* Float four columns side by side */
-.column {
-  
-  float: left;
-  width: 25%;
-  padding: 0px;
-  margin-left:50px;
-  text-align: center;
-  margin-right:50px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+.bottom-img
+{
+    width: 100%;
 }
+/*-----------services section--------------*/
 
-
+#services
+{
+    padding: 80px 0;
+    
+}
 .service-img
 {
     width: 100px;
     margin-top: 20px;
-    padding-top: 5%; 
-
-}
-
-#services{
-    padding-top: 5%; 
-
 }
 .services
 {
     padding: 20px;
-
 }
 .services h4
 {
@@ -119,7 +104,7 @@ body {
 .title::before
 {
     content: '';
-    background: #0000FF;
+    background: #00008B;
     height: 5px;
     width: 200px;
     margin-left: auto;
@@ -130,7 +115,7 @@ body {
 .title::after
 {
     content: '';
-    background: #0000FF;
+    background: #00008B;
     height: 10px;
     width: 50px;
     margin-left: auto;
@@ -145,17 +130,49 @@ body {
     padding: 8px 25px;
     border: none;
     border-radius: 20px;
-    background-image: linear-gradient(to right, #0000FF,#0000FF);
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
 }
 
+/*---------------about-us section--------------*/
+#Solutions
+{
+    background-color: #f7fafc;
+    padding: 60px;
+
+}
+
+.card{
+    
+  
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+
+    margin-right:30px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+  
+/*--------------testimonials SECTION--------------*/
+#testimonials
+{
+    background-color: #edf2f7;
+    padding: 80px;
+
+}
+
+.soon{
+    position: absolute;
+    right: 80px;
+    font-size:50;
+
+}
 
 /*----------social-media section-----------*/
 
 #social-media
 {
-    background: #edf2f7;
-    padding: 100px;
-    margin: 0px;
+    background: #f8f9fa;
+    padding: 100px 0;
 }
 #social-media p
 {
@@ -175,8 +192,10 @@ body {
 
 /*-----------------footer section---------------*/
 
-
-
+#footer
+{
+    background-image: linear-gradient(to right, #f2f2f2,#f2f2f2);
+}
 
 .copyright
 {
@@ -184,29 +203,13 @@ body {
     padding-bottom: 20px;
     text-align: center;
 }
-@media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-      display: block;
-      margin-bottom: 20px;
-    }
-  }
 
 
 
 
 
 
-/*Card */
 
-.card{
-    
-  
-  text-align: center;
-  margin-right:30px;
-  margin-top: 30px;
-  margin-bottom: 0px;
-}
 
 
 
