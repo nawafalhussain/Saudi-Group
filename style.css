@@ -17,14 +17,14 @@ body
 
 .navbar
 {
-    background-image: linear-gradient(to right, #f2f2f2,#f2f2f2);
+    background-image: linear-gradient(to left, #f2f2f2,#f2f2f2);
     padding: 0 !important;
 }
 .navbar-brand img
 {
     height: 40px;
-    padding-left: 50px;
-    text-align: right;
+    padding-right: 50px;
+    text-align: left;
 
 }
 #navbarNav{
@@ -95,12 +95,12 @@ body
 {
     padding: 20px;
 }
-.services h4
+/*.services h4
 {
     padding: 5px;
     margin-top: 25px;
     text-transform: uppercase;
-}
+}*/
 .title::before
 {
     content: '';
@@ -146,12 +146,18 @@ body
   
     text-align: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-
+     
     margin-right:1%;
     margin-left:1%;
     margin-top: 1%;
     margin-bottom: 1%;
   }
+  .card a{
+      color: black;
+  }
+  .card a:hover{
+    color: black;
+}
 
   /*------------------Now------------*/
 #Now{
@@ -187,6 +193,21 @@ body
     font-size:50;
 
 }
+/*test*/
+
+
+ h4 {
+    text-transform: uppercase;
+    font-weight: 800 !important;
+    color: #437eeb !important;
+    font-size: 20px !important;
+    position: relative !important;
+    z-index: 1;
+    display: inline-block;
+}
+
+
+
 
 /*----------social-media section-----------*/
 
